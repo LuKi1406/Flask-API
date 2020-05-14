@@ -1,3 +1,5 @@
+import werkzeug
+werkzeug.cached_property = werkzeug.utils.cached_property
 from flask_restplus import Api
 from flask import Blueprint
 from .main.controller.user_controller import api as user_ns
