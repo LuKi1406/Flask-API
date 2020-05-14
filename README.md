@@ -35,13 +35,14 @@ Ostalo:
 ```sh
 $ cd flask-api
 $ py -m venv venv
+$ venv Scripts\activate
 $ pip install flask-bcrypt
 $ pip install flask-restplus
 $ pip install Flask-Migrate
 $ pip install pyjwt
 $ pip install Flask-Script
 $ pip install flask_testing
-$ pip freeze > reguirements.txt
+$ pip freeze > requirements.txt
 ```
 
 KREIRANJE BAZE:
